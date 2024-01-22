@@ -313,6 +313,7 @@ axs[1].axis('off')
 axs[1].set_title('Detections')
 
 plt.show()
+plt.savefig("detect.jpg")
 
 
 def convert_to_xywh(boxes):
